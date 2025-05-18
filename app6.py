@@ -5,7 +5,7 @@ import google.generativeai as genai
 st.set_page_config(page_title="AI Nutrition Assistant", page_icon="🥗", layout="centered")
 
 # Initialize Gemini Pro with your API key
-GOOGLE_API_KEY = "AIzaSyBNd0B4FdUCMdpfE3YQP6ghAfrE80GQ6Tg"
+GOOGLE_API_KEY = "AIzaSyBNd0B4FdUCMdpfE3YQP6ghAfrE80GQ6T"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize model
